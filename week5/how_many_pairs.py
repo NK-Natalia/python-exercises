@@ -5,7 +5,7 @@
 
 A = list(map(int, input().split()))
 
-B = ()
+
 x = 0
 k = 0
 
