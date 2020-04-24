@@ -12,3 +12,4 @@ for line in inFile:
         list11.append(int(line.split()[3]))
 
 print(st.mean(list9), st.mean(list10), st.mean(list11), end=' ')
+inFile.close()
