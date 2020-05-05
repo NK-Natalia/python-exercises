@@ -1,4 +1,2 @@
-inFile = open('input.txt')
-lines = str(inFile.readlines()).split()
-print(*lines)
-Set = set(lines)
+import sys
+print(len(set(str(sys.stdin.read()).split())))
